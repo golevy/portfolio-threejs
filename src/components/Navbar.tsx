@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "w-full flex items-center py-5 fixed top-0 z-20 bg-primary",
+        "w-full flex items-center py-5 fixed top-0 left-0 z-20 bg-primary",
         styles.paddingX
       )}
     >
@@ -29,6 +29,9 @@ const Navbar = () => {
             alt="logo"
             className="w-9 h-9 object-contain"
           />
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            Levy <span className="sm:block hidden">| JavaScript Mastery</span>
+          </p>
         </Link>
       </div>
     </nav>
