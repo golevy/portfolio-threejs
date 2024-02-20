@@ -1,5 +1,6 @@
 import * as React from "react"
 import { cn } from "~/lib/utils"
+import { ComputersCanvas } from "./canvas"
 
 const Hero = () => {
   return (
@@ -22,6 +23,8 @@ const Hero = () => {
           <p className="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]"></p>
         </div>
       </div>
+
+      <ComputersCanvas />
     </section>
   )
 }
